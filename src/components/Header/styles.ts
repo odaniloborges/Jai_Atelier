@@ -28,7 +28,7 @@ export const Container = styled.div`
 export const Title = styled.a`
   //font-family: ${fonts.fontFamily}, sans-serif;
   //padding-top: 0.5rem;
-  font-size: 2.5rem;
+  //font-size: 2.5rem;
   color: ${cores.preto};
   justify-content: flex-start;
   align-self: flex-start;
