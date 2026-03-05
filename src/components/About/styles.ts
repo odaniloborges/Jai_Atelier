@@ -20,8 +20,8 @@ export const Container = styled.section`
 `
 
 export const Title = styled.h2`
-  //font-family: ${fonts.fontFamily}, sans-serif;
-  //padding-top: 0.5rem;
+  font-family: ${fonts.fontFamily}, sans-serif;
+  padding-top: 0.5rem;
   font-size: 4rem;
   font-weight: 500;
   margin-top: 1.75rem;
