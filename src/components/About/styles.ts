@@ -12,7 +12,7 @@ export const Container = styled.section`
   column-gap: 20px;
 
   @media (max-width: 736px) {
-    padding: 0 0;
+    padding: 2rem;
     margin: 1.25rem 2rem;
     grid-template-columns: 1fr;
     row-gap: 0;
@@ -50,7 +50,7 @@ export const Column = styled.div`
   }
 
   @media (max-width: 736px) {
-    padding: 2rem 2rem;
+    padding: 0;
   }
 `
 
