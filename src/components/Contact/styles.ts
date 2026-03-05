@@ -19,7 +19,7 @@ export const Container = styled.section`
   @media (max-width: 736px) {
     flex-direction: column;
     gap: 1rem;
-    margin: 1.25rem 3rem;
+    margin: 1.25rem 2rem;
     padding: 1rem 1rem !important;
   }
 `
@@ -69,7 +69,7 @@ export const Title = styled.h2`
   margin-bottom: 40px;
 
   @media (max-width: 736px) {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
