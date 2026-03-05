@@ -20,7 +20,7 @@ export const Container = styled.section`
     flex-direction: column;
     gap: 1rem;
     margin: 1.25rem 2rem;
-    padding: 1rem 1rem !important;
+    padding: 2rem 2rem !important;
   }
 `
 export const List = styled.ul`

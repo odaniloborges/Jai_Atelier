@@ -28,7 +28,7 @@ export const Title = styled.h2`
   margin-bottom: 1.75rem;
 
   @media (max-width: 736px) {
-    font-size: 2%.5;
+    font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -50,7 +50,7 @@ export const Column = styled.div`
   }
 
   @media (max-width: 736px) {
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
   }
 `
 
