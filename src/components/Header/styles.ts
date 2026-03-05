@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
+import { fonts } from '../../styles'
 
 export const Container = styled.div`
   width: 100%;
@@ -25,9 +26,12 @@ export const Container = styled.div`
 `
 
 export const Title = styled.a`
+  //font-family: ${fonts.fontFamily}, sans-serif;
+  //padding-top: 0.5rem;
+  font-size: 2.5rem;
+  color: ${cores.preto};
   justify-content: flex-start;
   align-self: flex-start;
-  color: #000000;
   text-decoration: none;
   line-height: 1.5;
 `

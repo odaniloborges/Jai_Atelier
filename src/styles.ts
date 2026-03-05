@@ -1,14 +1,25 @@
 import { createGlobalStyle } from 'styled-components'
+import PlaylistFont from './assets/fonts/FontsFree-Net-PlaylistScript.ttf'
 
 export const cores = {
   branca: '#ffffff',
   cinza: '#DEDEDE',
-  vermelho: '#E66767',
+  vermelho: '#b8061f',
   cinzaClaro: '#EDEDED',
   preto: '#000000'
 }
 
+export const fonts = {
+  fontSource: './assets/fonts/FontsFree-Net-PlaylistScript.ttf',
+  fontFamily: 'Playlist'
+}
+
 export const GlobalCss = createGlobalStyle`
+
+  @font-face {
+    font-family: "Playlist";
+    src: url(${PlaylistFont});
+  }
 
   * {
     margin: 0;
