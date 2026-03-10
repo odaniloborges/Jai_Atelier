@@ -9,7 +9,7 @@ const Footer = () => {
           <S.Text>
             © Design by&nbsp;
             <S.Link href="https://pixasquare.gumroad.com/">
-              Dan Woody Studio
+              DanWoody Studio
             </S.Link>
           </S.Text>
         </div>
@@ -19,6 +19,7 @@ const Footer = () => {
           </span>
         </div>
       </S.Container>
+      <S.Direitos>Atelier Jai Barcellos © 2026</S.Direitos>
     </>
   )
 }

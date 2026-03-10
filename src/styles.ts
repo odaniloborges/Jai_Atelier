@@ -31,7 +31,7 @@ export const GlobalCss = createGlobalStyle`
 
   body {
     background-color: ${cores.cinzaClaro};
-    color: ${cores.vermelho};
+    color: ${cores.preto};
   }
 
   @media (max-width: 736px) {

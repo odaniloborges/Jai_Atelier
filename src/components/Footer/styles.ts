@@ -50,3 +50,13 @@ export const Link = styled.a`
     font-size: 1.25rem;
   }
 `
+
+export const Direitos = styled.p`
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+
+  @media (max-width: 736px) {
+    font-size: 1rem;
+  }
+`
