@@ -29,6 +29,29 @@ function App() {
       effects: true,
       normalizeScroll: true
     })
+
+    // Handler para interceptar cliques em links de âncora (#)
+    const handleAnchorClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement
+      const link = target.closest('a')
+
+      if (link && link.hash && link.origin === window.location.origin) {
+        const targetElement = document.querySelector(link.hash)
+
+        if (targetElement) {
+          e.preventDefault()
+          // Usamos o método nativo do smoother para mover a tela
+          smoother.current?.scrollTo(link.hash, true, 'top top')
+        }
+      }
+    }
+
+    window.addEventListener('click', handleAnchorClick)
+
+    return () => {
+      window.removeEventListener('click', handleAnchorClick)
+      smoother.current?.kill()
+    }
   }, [])
 
   return (
