@@ -12,6 +12,7 @@ import Main from './components/Main'
 import PageTransition from './components/PageTransition'
 
 import { GlobalCss } from './styles'
+import Cards from './components/Cards'
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
@@ -63,6 +64,7 @@ function App() {
             <Header />
             <Main />
             <About />
+            <Cards />
             <Contact />
             <Footer />
           </PageTransition>
