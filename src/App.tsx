@@ -63,8 +63,8 @@ function App() {
           <PageTransition>
             <Header />
             <Main />
-            <About />
             <Cards />
+            <About />
             <Contact />
             <Footer />
           </PageTransition>

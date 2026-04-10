@@ -14,13 +14,14 @@ export const Wrapper = styled.div`
   grid-auto-columns: 16rem;
   gap: 2rem;
   max-width: 100%;
-  animation: animate 15s linear infinite;
+  animation: animate 30s linear infinite;
 
   img {
     width: 17rem;
-    height: 20rem;
+    height: 30rem;
     overflow-clip-margin: content-box;
     overflow: clip;
+    object-fit: cover;
   }
 
   @keyframes animate {

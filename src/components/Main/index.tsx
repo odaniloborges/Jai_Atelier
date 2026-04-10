@@ -1,7 +1,7 @@
 import * as S from './styles'
-import apresentacao from '../../assets/images/apresentacao.jpg'
-import emilia from '../../assets/images/emilia.jpg'
-import tecido from '../../assets/images/tecido.jpg'
+import apresentacao from '../../assets/images/apresentacao.webp'
+import emilia from '../../assets/images/emilia.webp'
+import tecido from '../../assets/images/tecido.webp'
 
 const Main = () => {
   return (

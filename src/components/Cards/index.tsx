@@ -1,9 +1,9 @@
 import * as S from './styles'
-import faixas from '../../assets/images/faixas.jpg'
-import terno from '../../assets/images/terno.jpg'
-import rainha from '../../assets/images/rainha.png'
-import kimono from '../../assets/images/kimono-grande.jpg'
-import cleopatra from '../../assets/images/cleopatra.png'
+import faixas from '../../assets/images/faixas.webp'
+import terno from '../../assets/images/terno.webp'
+import rainha from '../../assets/images/rainha.webp'
+import kimono from '../../assets/images/kimono-grande.webp'
+import cleopatra from '../../assets/images/cleopatra.webp'
 
 const Cards = () => {
   return (

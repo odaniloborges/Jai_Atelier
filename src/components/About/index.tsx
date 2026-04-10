@@ -1,5 +1,5 @@
 import * as S from './styles'
-import founder from '../../assets/images/jaine.jpg'
+import founder from '../../assets/images/jaine.webp'
 
 const About = () => {
   return (

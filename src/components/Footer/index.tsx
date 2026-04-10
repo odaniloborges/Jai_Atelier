@@ -1,5 +1,5 @@
 import * as S from './styles'
-import logodev from '../../assets/images/logodev.png'
+import logodev from '../../assets/images/logodev.webp'
 
 const Footer = () => {
   return (
