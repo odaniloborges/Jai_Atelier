@@ -27,6 +27,7 @@ export const Container = styled.div`
 
 export const Title = styled.a`
   font-family: ${fonts.fontFamily}, sans-serif;
+  font-display: swap;
   padding-top: 0.5rem;
   font-size: 2.5rem;
   color: ${cores.preto};
