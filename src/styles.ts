@@ -19,6 +19,10 @@ export const GlobalCss = createGlobalStyle`
   @font-face {
     font-family: "Playlist";
     src: url(${PlaylistFont});
+    font-display: swap;
+    ascent-override: 105%;
+    descent-override: 35%;
+    line-gap-override: 10%
   }
 
   * {

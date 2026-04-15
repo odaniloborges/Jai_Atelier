@@ -19,7 +19,7 @@ const Main = () => {
         <S.List>
           <S.ListItem>
             <span className="frame">
-              <img src={emilia} alt="emilia" />
+              <img src={emilia} alt="emilia" loading="lazy" decoding="async" />
             </span>
             <S.Text>
               #Emilia do espetáculo sitío do pica-pau amarelo da RPR Produções.
@@ -27,7 +27,7 @@ const Main = () => {
           </S.ListItem>
           <S.ListItem>
             <span className="frame">
-              <img src={tecido} alt="tecido" />
+              <img src={tecido} alt="tecido" loading="lazy" decoding="async" />
             </span>
             <S.Text>
               #Atriz circence em tecido no Resort Costão do Santinho

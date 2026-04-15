@@ -21,7 +21,7 @@ const About = () => {
         </S.Column>
         <S.Column>
           <span>
-            <S.Image src={founder} alt="Jaine" />
+            <S.Image src={founder} alt="Jaine" loading="lazy" decoding="async" />
           </span>
         </S.Column>
       </S.Container>

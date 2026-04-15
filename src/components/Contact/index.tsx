@@ -12,12 +12,22 @@ const Contact = () => {
             <S.Links>
               <li>
                 <S.Link href="#">
-                  <img src={instagram} alt="instagram" />
+                  <img
+                    src={instagram}
+                    alt="instagram"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </S.Link>
               </li>
               <li>
                 <S.Link href="#">
-                  <img src={facebook} alt="instagram" />
+                  <img
+                    src={facebook}
+                    alt="facebook"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </S.Link>
               </li>
             </S.Links>

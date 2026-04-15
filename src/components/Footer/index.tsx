@@ -15,7 +15,12 @@ const Footer = () => {
         </div>
         <div>
           <span className="frame">
-            <img src={logodev} alt="logo do dev" />
+            <img
+              src={logodev}
+              alt="logo do dev"
+              loading="lazy"
+              decoding="async"
+            />
           </span>
         </div>
       </S.Container>

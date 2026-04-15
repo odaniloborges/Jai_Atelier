@@ -9,17 +9,22 @@ const Cards = () => {
   return (
     <S.Container>
       <S.Wrapper>
-        <img src={faixas} alt="Faixas" />
-        <img src={terno} alt="terno" />
-        <img src={rainha} alt="rainha" />
-        <img src={kimono} alt="kimono" />
-        <img src={cleopatra} alt="cleopatra" />
+        <img src={faixas} alt="Faixas" loading="lazy" decoding="async" />
+        <img src={terno} alt="terno" loading="lazy" decoding="async" />
+        <img src={rainha} alt="rainha" loading="lazy" decoding="async" />
+        <img src={kimono} alt="kimono" loading="lazy" decoding="async" />
+        <img src={cleopatra} alt="cleopatra" loading="lazy" decoding="async" />
 
-        <img src={faixas} aria-hidden="true" />
-        <img src={terno} aria-hidden="true" />
-        <img src={rainha} aria-hidden="true" />
-        <img src={kimono} aria-hidden="true" />
-        <img src={cleopatra} aria-hidden="true" />
+        <img src={faixas} aria-hidden="true" loading="lazy" decoding="async" />
+        <img src={terno} aria-hidden="true" loading="lazy" decoding="async" />
+        <img src={rainha} aria-hidden="true" loading="lazy" decoding="async" />
+        <img src={kimono} aria-hidden="true" loading="lazy" decoding="async" />
+        <img
+          src={cleopatra}
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+        />
       </S.Wrapper>
     </S.Container>
   )
