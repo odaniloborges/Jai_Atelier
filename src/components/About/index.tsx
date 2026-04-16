@@ -1,5 +1,5 @@
 import * as S from './styles'
-import founder from '../../assets/images/jaine.webp'
+import founder from '../../assets/images/jaine553.webp'
 
 const About = () => {
   return (
@@ -21,7 +21,12 @@ const About = () => {
         </S.Column>
         <S.Column>
           <span>
-            <S.Image src={founder} alt="Jaine" loading="lazy" decoding="async" />
+            <S.Image
+              src={founder}
+              alt="Jaine"
+              loading="lazy"
+              decoding="async"
+            />
           </span>
         </S.Column>
       </S.Container>
