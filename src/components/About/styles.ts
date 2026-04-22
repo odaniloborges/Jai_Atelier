@@ -3,13 +3,13 @@ import { cores } from '../../styles'
 import { fonts } from '../../styles'
 
 export const Container = styled.section`
-  margin: 1.25rem 3rem;
+  margin: 1.25rem 6rem;
   background-color: ${cores.branca};
   color: ${cores.preto};
   border-radius: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
+  column-gap: 30px;
 
   @media (max-width: 736px) {
     padding: 2rem;
@@ -35,7 +35,7 @@ export const Title = styled.h2`
 `
 
 export const Column = styled.div`
-  padding: 1.75rem;
+  padding: 4rem;
 
   div {
     height: 100%;
@@ -47,6 +47,11 @@ export const Column = styled.div`
     @media (max-width: 736px) {
       padding: 0 0;
     }
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
   }
 
   @media (max-width: 736px) {
