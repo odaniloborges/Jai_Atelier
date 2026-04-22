@@ -62,8 +62,8 @@ function App() {
           <GlobalCss />
           <PageTransition>
             <Header />
-            <Main />
             <Cards />
+            <Main />
             <About />
             <Contact />
             <Footer />
