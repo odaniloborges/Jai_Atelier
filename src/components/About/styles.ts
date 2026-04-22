@@ -13,7 +13,7 @@ export const Container = styled.section`
 
   @media (max-width: 736px) {
     padding: 2rem;
-    margin: 1.25rem 2rem;
+    margin: 1.25rem 2.5rem;
     grid-template-columns: 1fr;
     row-gap: 0;
   }
