@@ -19,7 +19,9 @@ export const Container = styled.section`
     flex: 1;
     height: 100%;
     background-color: #ededed; /* Cor da transição - vermelho para teste */
+    will-change: transform;
     transform: scaleX(1); /* Começa invisível */
     transform-origin: left; /* Origem da transformação */
+    backface-visibility: hidden;
   }
 `

@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
@@ -17,11 +17,11 @@ import Cards from './components/Cards'
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 function App() {
-  const wrapperRef = useRef(null)
-  const contentRef = useRef(null)
+  const wrapperRef = useRef<HTMLDivElement | null>(null)
+  const contentRef = useRef<HTMLDivElement | null>(null)
   const smoother = useRef<ScrollSmoother | null>(null)
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     // Inicialização
     smoother.current = ScrollSmoother.create({
       wrapper: wrapperRef.current,
@@ -47,10 +47,11 @@ function App() {
       }
     }
 
-    window.addEventListener('click', handleAnchorClick)
+    const contentElement = contentRef.current
+    contentElement?.addEventListener('click', handleAnchorClick)
 
     return () => {
-      window.removeEventListener('click', handleAnchorClick)
+      contentElement?.removeEventListener('click', handleAnchorClick)
       smoother.current?.kill()
     }
   }, [])

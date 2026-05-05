@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   grid-auto-columns: 16rem;
   gap: 2rem;
   max-width: 100%;
+  will-change: transform;
   animation: animate 30s linear infinite;
 
   img {
@@ -26,7 +27,7 @@ export const Wrapper = styled.div`
 
   @keyframes animate {
     to {
-      transform: translateX(calc(-5 * (16rem - 1rem)));
+      transform: translate3d(calc(-5 * (16rem - 1rem)), 0, 0);
     }
   }
 `
